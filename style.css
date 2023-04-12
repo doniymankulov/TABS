@@ -1,0 +1,35 @@
+.radio{
+    opacity: 0;
+}
+body{
+    background: greenyellow;
+}
+label{
+    background: yellow;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.content{
+    margin-top: 100px;
+    text-align: center;
+}
+#tab-2:checked ~ .content-1,
+#tab-2:checked ~ .content-3,
+#tab-2:checked ~ .content-4{
+    display: none;
+}
+#tab-3:checked ~ .content-1,
+#tab-3:checked ~ .content-4,
+#tab-3:checked ~ .content-2{
+    display: none;
+}
+#tab-4:checked ~ .content-2,
+#tab-4:checked ~ .content-3,
+#tab-4:checked ~ .content-1{
+    display: none;
+}
+
+img{
+    width: 200px;
+}
